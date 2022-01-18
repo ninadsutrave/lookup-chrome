@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>LookUp</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="content">
+        <h1>Look<h1 class="color">Up</h1> <img src="/images/logo.png"></h1>
+
+        <div class="dropdown">
+            <div class="dropdown-select" id="dropdown-menu">
+                <i class="bi bi-bookmark-check-fill left-icon"></i>
+                <span class="placeholder">Scroll your saved ...</span>
+                <i class="bi bi-chevron-down right-icon"></i>
+            </div>
+            <div class="dropdown-list"></div>
+          </div>
+
+        <div class="search">
+            <input type="text" placeholder="Look up a word ..." id="searchbar-element" required spellcheck="false">
+            <i class="bi bi-book"></i>
+        </div>
+
+        <p class="description" id="description-element"></p>
+
+        <ul>
+
+            <li class="word">
+                <div class="sound-icon">
+                <i class="bi bi-volume-up" id="audio-icon"></i>
+                </div>
+                <div class="entry">
+                    <p id="search-item"></p>
+                    <span></span>
+                </div> 
+                <i class="bi bi-bookmark-check" id="save-icon"></i>
+            </li>
+
+            <div class="part-of-speech">
+                <p></p>
+            </div>
+
+            <div class="info">
+
+                <li class="definition">
+                    <div class="details">
+                        <p class="heading">Definition</p>
+                        <span></span>
+                    </div>
+                </li>
+
+                <li class="example">
+                    <div class="details last">
+                        <p class="heading">Example</p>
+                        <span></span>
+                    </div>
+                </li>
+
+            </div>
+        </ul>
+        <div class="buttons">
+            <div class="button" id="previous-button"><i class="bi bi-arrow-left"></i></div >
+            <div class="button enabled" id="next-button"><i class="bi bi-arrow-right"></i></div >
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "LookUp",
+    "description": "Build your vocabulary by looking up word meanings, and saving the ones you want.",
+    "version": "1.0.0",
+
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+
+    "icons": { 
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png" 
+    },
+
+    "commands": {
+
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+L"
+            }
+        }   
+    }
+    
+}
