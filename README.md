@@ -16,9 +16,11 @@ LookUp is a free and easy-to-use vocabulary companion. A handy extension for all
 
 # Screenshots
 
-[!Image1](images/screenshot1.png)
-[!Image2](images/screenshot2.png)
-[!Image3](images/screenshot3.png)
+[!Image1](images/screenshot1.png)  
+
+[!Image2](images/screenshot2.png)  
+
+[!Image3](images/screenshot3.png)  
 
 # Extension
 
