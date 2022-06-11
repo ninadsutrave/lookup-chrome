@@ -28,3 +28,7 @@ great way to build your knowledge.
 
 [Add it to your chrome browser now to try it out!](https://chrome.google.com/webstore/detail/lookup/lamkbakfmcoaibacdbpgejffopbhhpgn?hl=en)  
 ⭐ this repo and leave a review and rating and if you like it!
+
+# License
+
+MIT © Ninad Sutrave
