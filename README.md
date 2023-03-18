@@ -16,13 +16,13 @@ great way to build your knowledge.
 
 # Preview
 
-[!Image1](images/screenshot1.png)
+![Image1](images/screenshot1.png)
 
-[!Image2](images/screenshot2.png)
+![Image2](images/screenshot2.png)
 
-[!Image3](images/screenshot3.png)
+![Image3](images/screenshot3.png)
 
-[!Image4](images/screenshot4.png)
+![Image4](images/screenshot4.png)
 
 # Extension
 
